@@ -1,0 +1,67 @@
+<form action="">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome">
+
+    <br /><br />
+    
+<label for="name">Email</label>
+    <input type="email" name="email" id="email">
+
+<br /><br />
+
+    <label for="idade">Idade</label>
+    <input type="number" name="idade" id="idade">
+
+    <br /><br />
+
+
+    <label for="celular">Celular</label>
+    <input type="tel" name="celular" id="celular">
+
+<br>
+<br>
+
+<label for="estado">Estado</label>
+    <select name="estado" id="estado" multiple required> 
+        <option value="">Selecione</option>
+<optgroup label="Sul"> 
+     <option value="SC">Santa catarina</option>
+    <option value="RS">Rio grande do sul</option>
+    <option value="NA">Não informar</option>
+ </optgroup>
+ <optgroup label="Norte"> 
+     <option value="RO">Rondônia</option>
+    <option value="AM">Amazônas</option>
+    <option value="NA">Não informar</option>
+ </optgroup>
+ </select>
+
+
+ <br /><br />
+
+ Qual sua linguaguem favorita?
+ <br />
+
+ <input type="radio" name="Favorita" id="Favorita-1"
+ value="Javascript" />
+ <label for="Javascript">Javascript</label>
+
+ <input type="radio" name="Favorita" id="Favorita-2"
+ value="Python" />
+ <label for="Python">Python</label>
+
+ <input type="radio" name="Favorita" id="Favorita-3"
+ value="c" />
+ <label for="c">C/C++</label>
+
+ <br /><br />
+
+ <input type="checkbox" name="aceito" id="aceito" />
+ <label for="aceito">Aceito os termos de uso</label>
+
+ <br /><br />
+
+ <input type="submit" value="Enviar">
+ <input type="reset" value="Limpar">
+
+</form>
